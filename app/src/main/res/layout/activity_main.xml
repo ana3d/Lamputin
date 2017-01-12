@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.antti.lamputin.MainActivity"
+    android:background="#000"
+    android:gravity="center">
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/btn_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:src="@drawable/icon_on"/>
+
+    <SurfaceView
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/btn_on_off"
+        android:layout_marginEnd="192dp" />
+
+</RelativeLayout>
